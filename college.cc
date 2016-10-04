@@ -1,3 +1,9 @@
+/** @file college.cc
+    @brief Implementation file for the college class
+    @author Mathew Aberegg, documentation by Robin Kelby
+
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -69,6 +75,11 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/** @brief add function adds a course to the college list
+    @param c, a course variable
+    @return no return variable, void function
+
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +118,11 @@ void College::add(course& c){
 	}
 }
 
+/** @brief remove function removes a course to the college list
+    @param coursename, a string variable
+    @return no return variable, void function
+
+*/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -144,7 +160,11 @@ void College::display(std::ostream& outs){
 	outs << "\n";
 }
 
+/** @brief hours function sums the hours in a course list
+    @param no parameters
+    @return hours, a double variable
 
+*/
 double College::hours(){
 	node * ptr;
 	ptr = head;

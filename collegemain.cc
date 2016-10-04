@@ -1,3 +1,9 @@
+/** @file collegemain.cc
+    @brief Application file for the college and course classes
+    @author John Dolan, documentation by Robin Kelby
+
+*/
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.

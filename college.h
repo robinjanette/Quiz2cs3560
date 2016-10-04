@@ -1,3 +1,9 @@
+/** @file college.h
+    @brief Header file for the college class
+    @author Mathew Aberegg, documentation by Robin Kelby
+
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3

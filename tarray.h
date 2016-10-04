@@ -1,3 +1,9 @@
+/** @file tarray.h
+    @brief Header file for the tarray class
+    @author John Dolan, documentation by Robin Kelby
+
+*/
+
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely

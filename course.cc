@@ -1,3 +1,9 @@
+/** @file course.h
+    @brief Implementation file for the course class
+    @author John Dolan, documentation by Robin Kelby
+
+*/
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.
